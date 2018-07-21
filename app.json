@@ -1,0 +1,48 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/search/search",
+        "pages/cart/cart",
+        "pages/mine/mine",
+        "pages/channel/phone/phone",
+        "pages/channel/tv/tv",
+        "pages/channel/computer/computer",
+        "pages/channel/laptop/laptop",
+        "pages/channel/news/news",        
+        "pages/goods/show",
+        "pages/selectGoods/selectGoods",
+        "pages/addr/addr"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#00d9ff",
+        "navigationBarTitleText": "小Young网",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "selectedColor": "#00d9ff",
+        "borderStyle": "white",
+        "backgroundColor": "#fff",
+        "list": [
+            {
+                "text": "首页",
+                "pagePath": "pages/index/index",
+                "iconPath": "assets/icons/home.png",
+                "selectedIconPath": "assets/icons/home_active.png"
+            },
+            {
+                "text": "购物车",
+                "pagePath": "pages/cart/cart",
+                "iconPath": "assets/icons/cart.png",
+                "selectedIconPath": "assets/icons/cart_active.png"
+            },
+            {
+                "text": "我的",
+                "pagePath": "pages/mine/mine",
+                "iconPath": "assets/icons/mine.png",
+                "selectedIconPath": "assets/icons/mine_active.png"
+            }
+        ]
+    }
+}
