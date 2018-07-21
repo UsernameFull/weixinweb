@@ -1,0 +1,10 @@
+<!--pages/channel/computer/computer.wxml-->
+<import src="../../../templates/slide/slide.wxml" />
+<import src="../../../templates/goods_list/goods_list.wxml" />
+<import src="../../../templates/cover/cover.wxml" />
+<view class="container">
+    <!-- 是没有图的。。 -->
+    <!-- <template is="slide" data="{{slides}}"></template> -->
+    <!-- <template is="cover" data="{{cover}}"></template> -->
+    <template is="goods_list" data="{{goods_list}}"></template>
+</view>

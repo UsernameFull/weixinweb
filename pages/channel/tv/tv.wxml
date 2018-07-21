@@ -1,0 +1,8 @@
+<!--pages/tv/tv.wxml-->
+<import src="../../../templates/slide/slide.wxml"/>
+<import src="../../../templates/goods_list/goods_list.wxml" />
+<view class="container">
+<!-- 并没有图 -->
+    <!-- <template is="slide" data="{{slides}}"></template> -->
+    <template is="goods_list" data="{{goods_list}}"></template>
+</view>
