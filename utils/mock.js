@@ -3,20 +3,20 @@ export default {
       //首页轮播图
             id: 1,
       slide_url:
-      "https://myowntestfor.oss-cn-beijing.aliyuncs.com/test/T.png"
+      "https://myowntestfor.oss-cn-beijing.aliyuncs.com/test/1.jpg"
         },
         {
             id: 2,
-          slide_url: "https://myowntestfor.oss-cn-beijing.aliyuncs.com/test/E.png"
+          slide_url: "https://myowntestfor.oss-cn-beijing.aliyuncs.com/test/2.jpg"
         },
         {
             id: 100001,
-          slide_url: "https://myowntestfor.oss-cn-beijing.aliyuncs.com/test/S.png"
+          slide_url: "https://myowntestfor.oss-cn-beijing.aliyuncs.com/test/3.jpg"
         },
-        {
-            id: 31,
-          slide_url: "https://myowntestfor.oss-cn-beijing.aliyuncs.com/test/T.png"
-        }
+        // {
+        //     id: 31,
+        //   slide_url: "https://myowntestfor.oss-cn-beijing.aliyuncs.com/test/T.png"
+        // }
     ],
     nav_data: [{
             nav_urls: "../channel/phone/phone",
@@ -869,12 +869,12 @@ export default {
         header:"清炒小白菜",
             description:"副标题",
             meta:"19元",
-            default:["小份","",1,"19元"],
+            default:["自备材料","",1,"19元"],
             attr_list:{
                 version:[
-                  { name: "小份", value: ["小份", "29元"] },
-                  { name: "中份", value: ["中份", "39元"] },
-                  { name: "大份", value: ["大份", "49元"] }
+                  { name: "自备材料", value: ["自备材料", "29元"] },
+                  { name: "成品", value: ["成品", "39元"] },
+                  { name: "厨师带菜", value: ["厨师带菜", "49元"] }
                 ],
                 color:[
                     {name:"gold",value:"金色"},
@@ -919,12 +919,12 @@ export default {
           header:"洋葱炒鸡蛋",
             description:"副标题",
             meta:"29元",
-            default:["小份","",1,"29元"],
+            default:["自备材料","",1,"29元"],
             attr_list:{
                 version:[
-                    {name:"小份",value:["小份","29元"]},
-                    {name:"中份",value:["中份","39元"]},
-                  { name: "大份", value: ["大份", "49元"]}
+                    {name:"自备材料",value:["自备材料","29元"]},
+                    {name:"成品",value:["成品","39元"]},
+                  { name: "厨师带菜", value: ["厨师带菜", "49元"]}
                 ],
                 color:[
                     {name:"grey",value:"铂银灰"},
@@ -966,12 +966,12 @@ export default {
           header: "蒜蓉油麦菜",
             description: "副标题",
             meta: "19元",
-            default:["小份","",1,"19元"],
+            default:["自备材料","",1,"19元"],
             attr_list:{
                 version:[
-                  { name: "小份", value: ["小份", "19元"] },
-                  { name: "中份", value: ["中份", "29元"] },
-                  { name: "大份", value: ["大份", "39元"] }
+                  { name: "自备材料", value: ["自备材料", "19元"] },
+                  { name: "成品", value: ["成品", "29元"] },
+                  { name: "厨师带菜", value: ["厨师带菜", "39元"] }
                 ],
                 color:[
                     {name:"black",value:"黑"},
@@ -1002,12 +1002,12 @@ export default {
           header: "清蒸鲈鱼",
             description: "副标题",
             meta: "49元",
-            default:["小份","",1,"49元"],
+            default:["自备材料","",1,"49元"],
             attr_list:{
                 version:[
-                  { name: "小份", value: ["小份", "49元"] },
-                  { name: "中份", value: ["中份", "59元"] },
-                  { name: "大份", value: ["大份", "69元"] }
+                  { name: "自备材料", value: ["自备材料", "49元"] },
+                  { name: "成品", value: ["成品", "59元"] },
+                  { name: "厨师带菜", value: ["厨师带菜", "69元"] }
                 ],
                 color:[
                     {name:"gold",value:"香槟金"},
@@ -1038,12 +1038,12 @@ export default {
           header: "紫菜汤",
             description: "副标题",
             meta: "19元",
-            default:["小份","",1,"19元"],
+            default:["自备材料","",1,"19元"],
             attr_list:{
                 version:[
-                  { name: "小份", value: ["小份", "19元"] },
-                  { name: "中份", value: ["中份", "29元"] },
-                  { name: "大份", value: ["大份", "39元"] }
+                  { name: "自备材料", value: ["自备材料", "19元"] },
+                  { name: "成品", value: ["成品", "29元"] },
+                  { name: "厨师带菜", value: ["厨师带菜", "39元"] }
                 ],
                 color:[
                     {name:"gold",value:"金色"},
@@ -1073,12 +1073,12 @@ export default {
           header: "山药排骨汤",
           description: "副标题",
             meta: "49元",
-            default:["小份","",1,"49元"],
+            default:["自备材料","",1,"49元"],
             attr_list:{
                 version:[
-                  { name: "小份", value: ["小份", "49元"] },
-                  { name: "中份", value: ["中份", "59元"] },
-                  { name: "大份", value: ["大份", "69元"] }
+                  { name: "自备材料", value: ["自备材料", "49元"] },
+                  { name: "成品", value: ["成品", "59元"] },
+                  { name: "厨师带菜", value: ["厨师带菜", "69元"] }
                 ],
                 color:[
                     {name:"black",value:"黑色"}
@@ -1105,12 +1105,12 @@ export default {
           header: "炒木耳",
         description: "副标题",
         meta: "19元",
-        default: ["小份", "", 1, "19元"],
+        default: ["自备材料", "", 1, "19元"],
         attr_list: {
           version: [
-            { name: "小份", value: ["小份", "19元"] },
-            { name: "中份", value: ["中份", "29元"] },
-            { name: "大份", value: ["大份", "39元"] }
+            { name: "自备材料", value: ["自备材料", "19元"] },
+            { name: "成品", value: ["成品", "29元"] },
+            { name: "厨师带菜", value: ["厨师带菜", "39元"] }
           ],
           color: [
             { name: "black", value: "黑色" }
@@ -1137,12 +1137,12 @@ export default {
         header: "炒香菇",
         description: "副标题",
         meta: "19元",
-        default: ["小份", "", 1, "19元"],
+        default: ["自备材料", "", 1, "19元"],
         attr_list: {
           version: [
-            { name: "小份", value: ["小份", "19元"] },
-            { name: "中份", value: ["中份", "29元"] },
-            { name: "大份", value: ["大份", "39元"] }
+            { name: "自备材料", value: ["自备材料", "19元"] },
+            { name: "成品", value: ["成品", "29元"] },
+            { name: "厨师带菜", value: ["厨师带菜", "39元"] }
           ],
           color: [
             { name: "black", value: "黑色" }
@@ -1162,12 +1162,12 @@ export default {
         header: "杂粮馒头",
         description: "副标题",
         meta: "9元",
-        default: ["小份", "", 1, "9元"],
+        default: ["自备材料", "", 1, "9元"],
         attr_list: {
           version: [
-            { name: "小份", value: ["小份", "9元"] },
-            { name: "中份", value: ["中份", "19元"] },
-            { name: "大份", value: ["大份", "29元"] }
+            { name: "自备材料", value: ["自备材料", "9元"] },
+            { name: "成品", value: ["成品", "19元"] },
+            { name: "厨师带菜", value: ["厨师带菜", "29元"] }
           ],
           color: [
             { name: "black", value: "黑色" }
@@ -1187,12 +1187,12 @@ export default {
         header: "炒丝瓜",
         description: "副标题",
         meta: "19元",
-        default: ["小份", "", 1, "9元"],
+        default: ["自备材料", "", 1, "9元"],
         attr_list: {
           version: [
-            { name: "小份", value: ["小份", "19元"] },
-            { name: "中份", value: ["中份", "29元"] },
-            { name: "大份", value: ["大份", "39元"] }
+            { name: "自备材料", value: ["自备材料", "19元"] },
+            { name: "成品", value: ["成品", "29元"] },
+            { name: "厨师带菜", value: ["厨师带菜", "39元"] }
           ],
           color: [
             { name: "black", value: "黑色" }
@@ -1212,12 +1212,12 @@ export default {
         header: "排骨藕汤",
         description: "副标题",
         meta: "49元",
-        default: ["小份", "", 1, "49元"],
+        default: ["自备材料", "", 1, "49元"],
         attr_list: {
           version: [
-            { name: "小份", value: ["小份", "49元"] },
-            { name: "中份", value: ["中份", "59元"] },
-            { name: "大份", value: ["大份", "69元"] }
+            { name: "自备材料", value: ["自备材料", "49元"] },
+            { name: "成品", value: ["成品", "59元"] },
+            { name: "厨师带菜", value: ["厨师带菜", "69元"] }
           ],
           color: [
             { name: "black", value: "黑色" }
@@ -1237,12 +1237,12 @@ export default {
         header: "炒韭菜",
         description: "副标题",
         meta: "19元",
-        default: ["小份", "", 1, "19元"],
+        default: ["自备材料", "", 1, "19元"],
         attr_list: {
           version: [
-            { name: "小份", value: ["小份", "19元"] },
-            { name: "中份", value: ["中份", "29元"] },
-            { name: "大份", value: ["大份", "39元"] }
+            { name: "自备材料", value: ["自备材料", "19元"] },
+            { name: "成品", value: ["成品", "29元"] },
+            { name: "厨师带菜", value: ["厨师带菜", "39元"] }
           ],
           color: [
             { name: "black", value: "黑色" }
@@ -1262,12 +1262,12 @@ export default {
         header: "炒芹菜",
         description: "副标题",
         meta: "19元",
-        default: ["小份", "", 1, "19元"],
+        default: ["自备材料", "", 1, "19元"],
         attr_list: {
           version: [
-            { name: "小份", value: ["小份", "19元"] },
-            { name: "中份", value: ["中份", "29元"] },
-            { name: "大份", value: ["大份", "39元"] }
+            { name: "自备材料", value: ["自备材料", "19元"] },
+            { name: "成品", value: ["成品", "29元"] },
+            { name: "厨师带菜", value: ["厨师带菜", "39元"] }
           ],
           color: [
             { name: "black", value: "黑色" }
@@ -1287,12 +1287,12 @@ export default {
         header: "全麦面包",
         description: "副标题",
         meta: "19元",
-        default: ["小份", "", 1, "19元"],
+        default: ["自备材料", "", 1, "19元"],
         attr_list: {
           version: [
-            { name: "小份", value: ["小份", "19元"] },
-            { name: "中份", value: ["中份", "29元"] },
-            { name: "大份", value: ["大份", "39元"] }
+            { name: "自备材料", value: ["自备材料", "19元"] },
+            { name: "成品", value: ["成品", "29元"] },
+            { name: "厨师带菜", value: ["厨师带菜", "39元"] }
           ],
         },
         intro: "它的营养价值比白面包高，含有丰富粗纤维、维生素E以及锌、钾等矿物质，对糖尿病人辅助大。"
@@ -1309,12 +1309,12 @@ export default {
         header: "西红柿炒鸡蛋",
         description: "副标题",
         meta: "39元",
-        default: ["小份", "", 1, "39元"],
+        default: ["自备材料", "", 1, "39元"],
         attr_list: {
           version: [
-            { name: "小份", value: ["小份", "39元"] },
-            { name: "中份", value: ["中份", "49元"] },
-            { name: "大份", value: ["大份", "59元"] }
+            { name: "自备材料", value: ["自备材料", "39元"] },
+            { name: "成品", value: ["成品", "49元"] },
+            { name: "厨师带菜", value: ["厨师带菜", "59元"] }
           ],
         },
         intro: "西红柿含有丰富的胡萝卜素、维生素C和B族维生素。鸡蛋含有大量的维生素和矿物质及有高生物价值的蛋白质；蛋黄中含有丰富的卵磷脂、固醇类、蛋黄素以及钙、磷、铁、维生素A、维生素D及B族维生素。这些成分对增进神经系统的功能大有裨益，防治糖尿病。"
@@ -1331,12 +1331,12 @@ export default {
         header: "口蘑冬瓜",
         description: "副标题",
         meta: "39元",
-        default: ["小份", "", 1, "39元"],
+        default: ["自备材料", "", 1, "39元"],
         attr_list: {
           version: [
-            { name: "小份", value: ["小份", "39元"] },
-            { name: "中份", value: ["中份", "49元"] },
-            { name: "大份", value: ["大份", "59元"] }
+            { name: "自备材料", value: ["自备材料", "39元"] },
+            { name: "成品", value: ["成品", "49元"] },
+            { name: "厨师带菜", value: ["厨师带菜", "59元"] }
           ],
         },
         intro: "冬瓜维生素中以抗坏血酸、硫胺素、核黄素及尼克酸含量较高，具防治癌症效果的维生素B1，在冬瓜子中含量相当丰富；矿质元素有钾、钠、钙、铁、锌、铜、磷、硒等8种，其中含钾量显著高于含钠量，属典型的高钾低钠型蔬菜，对需进食低钠盐食物的肾脏病、高血压、糖尿病患者大有益处。"
@@ -1353,12 +1353,12 @@ export default {
         header: "芹菜炒香干",
         description: "副标题",
         meta: "29元",
-        default: ["小份", "", 1, "29元"],
+        default: ["自备材料", "", 1, "29元"],
         attr_list: {
           version: [
-            { name: "小份", value: ["小份", "29元"] },
-            { name: "中份", value: ["中份", "39元"] },
-            { name: "大份", value: ["大份", "49元"] }
+            { name: "自备材料", value: ["自备材料", "29元"] },
+            { name: "成品", value: ["成品", "39元"] },
+            { name: "厨师带菜", value: ["厨师带菜", "49元"] }
           ],
         },
         intro: "该菜具有清肝热、调气血的作用。 "
@@ -1375,12 +1375,12 @@ export default {
         header: "冬瓜汤",
         description: "副标题",
         meta: "39元",
-        default: ["小份", "", 1, "39元"],
+        default: ["自备材料", "", 1, "39元"],
         attr_list: {
           version: [
-            { name: "小份", value: ["小份", "39元"] },
-            { name: "中份", value: ["中份", "49元"] },
-            { name: "大份", value: ["大份", "59元"] }
+            { name: "自备材料", value: ["自备材料", "39元"] },
+            { name: "成品", value: ["成品", "49元"] },
+            { name: "厨师带菜", value: ["厨师带菜", "59元"] }
           ],
         },
         intro: "具有清热利水、调脂降压作用。冬瓜有清热利湿、利尿的作用，可以带走你身体中的热量和一些代谢产物。所以希望大家多吃冬瓜，尤其是脂肪肝的患者，多吃冬瓜，清热利湿，对于湿热造成的脂肪肝会起到辅助治疗的作用； "
@@ -1397,12 +1397,12 @@ export default {
         header: "银耳汤",
         description: "副标题",
         meta: "39元",
-        default: ["小份", "", 1, "39元"],
+        default: ["自备材料", "", 1, "39元"],
         attr_list: {
           version: [
-            { name: "小份", value: ["小份", "39元"] },
-            { name: "中份", value: ["中份", "49元"] },
-            { name: "大份", value: ["大份", "59元"] }
+            { name: "自备材料", value: ["自备材料", "39元"] },
+            { name: "成品", value: ["成品", "49元"] },
+            { name: "厨师带菜", value: ["厨师带菜", "59元"] }
           ],
         },
         intro: "银耳含丰富的蛋白质、脂肪、膳食纤维、微量元素、胶质及对人体十分有益的银耳多糖。银耳多糖不仅能改善人的肝、肾功能，还能降低血清胆固醇、甘油三酯，促进肝脏蛋白质的合成，增强人体的免疫力。"
@@ -1419,12 +1419,12 @@ export default {
         header: "胡萝卜炒鸡蛋",
         description: "副标题",
         meta: "29元",
-        default: ["小份", "", 1, "29元"],
+        default: ["自备材料", "", 1, "29元"],
         attr_list: {
           version: [
-            { name: "小份", value: ["小份", "29元"] },
-            { name: "中份", value: ["中份", "39元"] },
-            { name: "大份", value: ["大份", "49元"] }
+            { name: "自备材料", value: ["自备材料", "29元"] },
+            { name: "成品", value: ["成品", "39元"] },
+            { name: "厨师带菜", value: ["厨师带菜", "49元"] }
           ],
         },
         intro: "具有利水下气作用，适用于肥胖性脂肪肝患者。"

@@ -21,7 +21,7 @@ Page({
   //点击结算事件
   checkOut() {
     wx.showToast({
-      title: '本功能尚未开放',
+      title: '此功能尚未开放',
       icon: 'loading',
       duration: 3000,
     });

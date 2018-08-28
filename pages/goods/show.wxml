@@ -56,15 +56,26 @@
         <view class="tab-select">
             <view class="brief"><text class="{{selected?'on':''}}" bindtap="selectBrief">概述</text></view>
             <!-- 只需要一个描述即可 -->
-            <!-- <view class="parameter"><text class="{{selected1?'on':''}}" bindtap="selectParameter">参数</text></view> -->
+            <view class="parameter"><text class="{{selected1?'on':''}}" bindtap="selectParameter">说明</text></view>
         </view>
-        <view class="brief-info {{selected?'show':''}}">
+        <view class="brief-info{{selected?'show':''}}">
             <!-- <image src="{{item}}" mode="widthFix"/> -->
             {{goods.intro}}
         </view>
-        <!-- <view class="parameter-info {{selected1?'show':''}}" wx:for="{{goods.parameter_img}}" wx:key="{{index}}">
-            <image src="{{item}}" mode="widthFix"/>
-        </view> -->
+        <view class="parameter-info{{selected1?'show':''}}">
+            <view>做菜方式说明：</view>        
+            <view>　</view>           
+            <view>自备材料：自己准备食材，厨师上门做菜</view>
+            <view>厨师带菜：由厨师带菜上门做菜</view>
+            <view>成品： 由厨师做好后送来</view>
+            <view>　</view>           
+            <view>厨师介绍：</view>
+            <view>章厨师： 有丰富的烹调经验，擅长粤菜，川菜和湘菜</view>
+            <view>李厨师： 对工作认真负责热爱烹调，善于钻研，是中国烹饪协会会员</view>
+            <view>王厨师： 从事厨师20余年，擅长海鲜干锅系列，纸锅系列，铁板系列，石锅系列</view>            
+            <view>赵厨师： 从厨13年，多次参加全国烹饪大赛，并取得过名次</view>    
+            <view>宋厨师： 从厨12年，曾就职于星级酒店</view>                                
+        </view>
     </view>
     <view class="user-operation">
         <view class="cart" bindtap="goCart">
@@ -73,6 +84,6 @@
             <image src="../../assets/icons/cart.png" />
         </view>
         <view class="add-cart" bindtap="toSelect" data-id="{{goods.id}}">加入购物车</view>
-        <view class="btn-buy-now">立即购买</view>
+        <view class="btn-buy-now" bindtap="checkOut">立即购买</view>
     </view>
 </view>

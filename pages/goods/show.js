@@ -24,6 +24,14 @@ Page({
       selected1:true
     });
   },
+  //点击结算事件
+  checkOut() {
+    wx.showToast({
+      title: '此功能尚未开放',
+      icon: 'loading',
+      duration: 3000,
+    });
+  },
   //点击加入购物车按钮跳到商品属性选择页面
   toSelect(e){
     const id=e.currentTarget.dataset.id;

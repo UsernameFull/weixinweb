@@ -23,7 +23,7 @@
         <view class="weui-cells">
             <view class="weui-cell attr-version">
                 <view class="weui-cell__hd subtitle">
-                    分量
+                    做菜方式
                 </view>
                 <view class="weui-cell__bd">
                     <radio-group class="select-version" bindchange="selectVersion">
@@ -61,6 +61,26 @@
 
                 </view>
             </view> -->
+
+            <view class="weui-cell attr-color">
+                <view class="weui-cell__hd subtitle">
+                    厨师
+                </view>
+                <view class="weui-cell__bd">
+
+                    <radio-group class="select-color" bindchange="selectColor">
+                        <block wx:for="{{['章','李','王','赵','宋']}}" wx:for-item="color" wx:key="{{[0,1,2,3,4]}}">
+                            <label class="{{index==curcIndex?'on':''}}" data-index="{{index}}" bindtap="colorHasSelected">
+                                <radio class="weui-check" value="{{color.value}}"/>
+                                <view class="weui-check__label">
+                                    <text>{{color}}</text>
+                                </view>
+                            </label>
+                        </block>
+                    </radio-group>
+
+                </view>
+            </view>
             <view class="weui-cell attr-number">
                 <view class="weui-cell__hd subtitle">购买数量</view>
                 <view class="weui-cell__bd">

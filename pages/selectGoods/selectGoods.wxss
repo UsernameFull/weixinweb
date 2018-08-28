@@ -105,7 +105,7 @@
 
 .select-color label {
     display: inline-block;
-    width: 96rpx;
+    width: 70rpx;
     padding: 16rpx 30rpx;
     margin: 8rpx;
     font-size: 11pt;

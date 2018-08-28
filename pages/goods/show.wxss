@@ -178,14 +178,22 @@
   display: block;
   width: 100%;
 }
-.parameter-info,{
-  display: none;
+
+.brief-infoshow{
+  font-size: 14pt;
+  background-color: white;
+  padding: 50rpx;
+  padding-bottom: 120rpx;
+
 }
-.show{
-  display: block;
+.brief-info{
+display: none;
 }
 
-.brief-info{
+.parameter-info{
+  display: none;
+}
+.parameter-infoshow{
   font-size: 14pt;
   background-color: white;
   padding: 50rpx;
